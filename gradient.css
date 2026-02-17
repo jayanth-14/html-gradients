@@ -1,3 +1,18 @@
 .grad-1 {
   --g1: linear-gradient(hsl(220, 60%, 35%), hsl(220, 60%, 75%));
 }
+.grad-2 {
+  --g1: linear-gradient(hsl(220, 60%, 35%), hsl(210, 60%, 35%));
+}
+.grad-3 {
+  --g1: linear-gradient(hsl(220, 60%, 35%), hsl(220, 60%, 75%));
+}
+.grad-4 {
+  --g1: linear-gradient(hsl(220, 60%, 35%), hsl(220, 60%, 75%));
+}
+.grad-5 {
+  --g1: linear-gradient(hsl(220, 60%, 35%), hsl(220, 60%, 75%));
+}
+.grad-6 {
+  --g1: linear-gradient(hsl(220, 60%, 35%), hsl(220, 60%, 75%));
+}

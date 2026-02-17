@@ -54,16 +54,17 @@ body {
   background-color: hsl(220, 63%, 54%);
   padding: 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 150px);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 30px;
   justify-content: center;
 }
 
 .card {
-  height: 180px;
+  height: 250px;
   background-color: hsl(220, 63%, 84%);
   border-radius: 5px;
   box-shadow: 4px 4px 5px 0px hsl(220, 63%, 24%);
+  --sheen: linear-gradient(25deg, transparent, rgba(255, 255, 255, 0.4));
 }
 
 .card-img {
@@ -75,10 +76,12 @@ body {
 
 .card-title {
   height: 20%;
-  /* padding: 20px 30px; */
-  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 20px;
   font-weight: 300;
-  /* background: linear-gradient(--g1, transparent); */
+  background: var(--sheen), var(--g1);
+  color: #fff;
 }
