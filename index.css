@@ -84,4 +84,5 @@ body {
   font-weight: 300;
   background: var(--sheen), var(--g1);
   color: #fff;
+  border-radius: 0px 0px 5px 5px;
 }
