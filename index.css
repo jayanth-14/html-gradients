@@ -52,15 +52,17 @@ body {
   width: 100%;
   min-height: fit-content;
   background-color: hsl(220, 63%, 54%);
-  padding: 50px;
+  padding: 65.1px;
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
-  gap: 30px;
+  grid-template-rows: repeat(auto-fill, 280px);
+  gap: 65.1px;
   justify-content: center;
 }
 
 .card {
-  height: 250px;
+  width: 200px;
+  height: 280px;
   background-color: hsl(220, 63%, 84%);
   border-radius: 5px;
   box-shadow: 4px 4px 5px 0px hsl(220, 63%, 24%);

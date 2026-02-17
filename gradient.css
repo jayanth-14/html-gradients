@@ -5,14 +5,33 @@
   --g1: linear-gradient(hsl(220, 60%, 35%), hsl(210, 60%, 35%));
 }
 .grad-3 {
-  --g1: linear-gradient(hsl(220, 60%, 35%), hsl(220, 60%, 75%));
+  --g1: linear-gradient(hsl(120, 60%, 35%), hsl(120, 90%, 55%));
 }
 .grad-4 {
-  --g1: linear-gradient(hsl(220, 60%, 35%), hsl(220, 60%, 75%));
+  --g1: linear-gradient(hsl(45, 45%, 90%), hsl(45, 45%, 40%));
 }
 .grad-5 {
-  --g1: linear-gradient(hsl(220, 60%, 35%), hsl(220, 60%, 75%));
+  --g1: linear-gradient(hsl(24, 100%, 41%), hsl(24, 100%, 91%));
 }
 .grad-6 {
-  --g1: linear-gradient(hsl(220, 60%, 35%), hsl(220, 60%, 75%));
+  --g1: linear-gradient(hsl(199, 69%, 50%), hsl(199, 69%, 40%));
+}
+
+.grad-7 {
+  --g1: linear-gradient(hsl(62, 32%, 32%), hsl(62, 32%, 62%));
+}
+
+.grad-8 {
+  --g1: linear-gradient(hsl(90, 40%, 70%), hsl(90, 10%, 70%));
+}
+
+.grad-9 {
+  --g1: linear-gradient(
+    hsl(231, 37%, 44%),
+    hsl(231, 37%, 44%),
+    hsl(231, 37%, 44%),
+    hsl(232, 41%, 56%),
+    hsl(232, 41%, 56%),
+    hsl(232, 41%, 56%)
+  );
 }
